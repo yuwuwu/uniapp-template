@@ -2,8 +2,8 @@
  * @Author: yuyongxing
  * @Date: 2022-06-21 15:58:23
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-06-21 16:02:55
- * @Description: 
+ * @LastEditTime: 2022-06-21 18:18:24
+ * @Description: 子组件
 -->
 <template>
   <div>

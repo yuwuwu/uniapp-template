@@ -2,21 +2,23 @@
  * @Author: yuyongxing
  * @Date: 2022-06-15 14:45:36
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-06-21 13:54:38
+ * @LastEditTime: 2022-06-21 18:05:05
  * @Description: 
 -->
 <template>
   <view class="content">
     <image class="logo" src="/static/logo.png"></image>
     <view>
-      <text class="title">{{ title }}</text>
+      <Hello :title="title"></Hello>
     </view>
   </view>
 </template>
 
 <script>
 import { testApi } from "@/api/test.js";
+import Hello from '@/components/Hello.vue';
 export default {
+  components: { Hello },
   data() {
     return {
       title: "Hello",
